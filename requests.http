@@ -1,0 +1,13 @@
+@API_URL = http://127.0.0.1:8000
+
+###
+GET {{API_URL}}/api/animals
+
+###
+POST {{API_URL}}/api/animals
+Content-Type: "application/json"
+
+{
+    "name": "myTralala",
+    "age": 20
+}
